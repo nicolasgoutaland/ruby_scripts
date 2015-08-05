@@ -29,7 +29,7 @@ if (__FILE__) == $0
     # Try to load file content
     input_file_content_plist = CFPropertyList::List.new(:file => file_path)
     if input_file_content_plist == nil
-        puts "Error : cannot load \"#{input_file_content_plist}\""
+        puts "Error : cannot load \"#{file_path}\""
         return
     end
 
