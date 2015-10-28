@@ -16,7 +16,7 @@ if (__FILE__) == $0
     file_path = Pathname.new(File.expand_path(ARGV[0]))
     if !file_path.exist?
         puts "Error : \"#{file_path}\" not found"
-        return
+        exit
     end
 
     # Compute output file
@@ -30,7 +30,7 @@ if (__FILE__) == $0
     input_file_content_plist = CFPropertyList::List.new(:file => file_path)
     if input_file_content_plist == nil
         puts "Error : cannot load \"#{file_path}\""
-        return
+        exit
     end
 
     # Load plist content
