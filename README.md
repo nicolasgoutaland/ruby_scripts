@@ -16,7 +16,7 @@ Convert a PLIST to JSON
 Guess....
 
 ## localizables_diff
-Generate a file on desktop listing all missings keys from multiples Localizable.strings files, for iOS / MacOS applications
+Generate a file on desktop listing all missings keys from multiples Localizable.strings files given in parameters, for iOS / MacOS applications
 
 ## android_assets_cleaner
 Generate clean assets files for Android from an iOS resources file, deleting doublons, cleaning names, etc...
