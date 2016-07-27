@@ -45,5 +45,5 @@ if (__FILE__) == $0
     dest_path.open('w')
 
     # Write JSON
-    dest_path.write(JSON.generate(data));
+    dest_path.write(JSON.pretty_generate(data));
 end
